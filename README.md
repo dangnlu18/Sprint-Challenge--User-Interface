@@ -34,13 +34,25 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML are HTML markup tags that help organize your HTML code. Semantic HTML is organized and gives meaning to the code. Each markup has its own properties and behave differently. Some of the common semantic markups include, html, header, h1-h6, head, body, main, article, p, and footer. Each of those tags have a defined behavior, whereas div tags do not.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Display block shows up on its own line, meaning that it inherently has a break; inline block does not, which allows the content to be side-by-side and inside other elements.
+
+Display blocks respect their set margin values and will take up the required space set, whereas inline elements can conform and will take up only as much space as it needs.
 
 3. What are the 4 areas of the box model?
 
+content, padding, border, margin
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+cross axis: perpendicular to the main axis
+
 5. Explain why git is valuable to a team of developers.
+
+Git is very valuable because it allows each team member to fork their own copies and develop without affecting the master branch. This allows for high collaboration, at the same time, allows for version control. Without git, working collaboratively is tough because one cannot see the changes that another has made. Also, with git, one could compare their code and request for collaborators to review their code before getting merged to the master branch.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
