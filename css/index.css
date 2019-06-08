@@ -242,3 +242,30 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+input {
+    background-color: lightblue;
+    width: 100%;
+}
+
+.contact-row{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 600px){
+    .middle-content .boxes .box  {
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    nav{
+        flex-flow: column;
+    }
+    .top-content .text-container {
+        width: 100%;
+    }
+}
+
+
