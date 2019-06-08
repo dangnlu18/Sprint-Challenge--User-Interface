@@ -79,6 +79,24 @@ p {
     border-bottom: 1px dashed black;
 }
 
+nav {
+    margin: 20px 0px;
+
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+a {
+    color:black;
+    text-decoration: none;
+
+}
+
+img{
+    margin-bottom: 15px;
+}
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
@@ -110,6 +128,86 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box1{
+    background-color: teal;
+}
+
+.middle-content .boxes .box2{
+    background-color: gold;
+}
+
+.middle-content .boxes .box3{
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box4{
+    background-color: coral;
+}
+
+.middle-content .boxes .box5{
+    background-color: crimson;
+}
+
+.middle-content .boxes .box6{
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box7{
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box8{
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box9{
+    background-color: indigo;
+}
+
+.middle-content .boxes .box10{
+    background-color: dodgerblue;
+}
+
+main article {
+    height: 400px;
+    width: 400px;
+    margin: 15px 0px;
+
+}
+
+p {
+    margin: 15px 0px;
+}
+
+hr{
+    border-style: none none dashed;
+}
+
+.row hr {
+    border-style: none none dashed;
+    width: 90%;
+    margin: 20px 20px 20px 0px ;
+}
+
+.column {
+    display: flex;  
+    justify-content: center;
+    align-items: stretch;
+}
+
+
+
+button {
+    background-color: white;
+    color; black
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: 14px;
+    text-align: center;
+    display: inline-block;
 }
 
 .bottom-content {
@@ -144,3 +242,30 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+input {
+    background-color: lightblue;
+    width: 100%;
+}
+
+.contact-row{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 600px){
+    .middle-content .boxes .box  {
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    nav{
+        flex-flow: column;
+    }
+    .top-content .text-container {
+        width: 100%;
+    }
+}
+
+
